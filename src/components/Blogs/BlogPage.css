@@ -1,0 +1,220 @@
+/* General styling */
+body {
+  font-family: "Arial", sans-serif;
+  color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+  background-color: #111111; /* Dark background for the overall page */
+}
+
+/* Blog Header Section */
+.blog-header {
+  background-image: url("https://t3.ftcdn.net/jpg/03/24/73/92/360_F_324739203_keeq8udvv0P2h1MLYJ0GLSlTBagoXS48.jpg"); /* Background only for the header section */
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 0; /* Adjust padding as needed */
+  text-align: center;
+  color: #ffffff;
+}
+
+.blog-header h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.blog-header p {
+  color: #fbbf24;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+/* Blog Content Below Header */
+.blog-content {
+  padding: 2rem;
+}
+
+/* Blog Card Styling */
+.blog-card {
+  background-color: #333333;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.blog-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.blog-card h2 {
+  font-size: 1.75rem;
+  color: #fbbf24;
+}
+
+.blog-card p {
+  font-size: 1rem;
+  color: #999999;
+}
+
+.blog-card .date-day {
+  background-color: #fbbf24;
+  color: #111111;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.blog-card .date-month {
+  color: #cccccc;
+}
+
+.blog-card button {
+  background-color: #fbbf24;
+  color: #111111;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.blog-card button:hover {
+  background-color: #ffcc5c;
+  transition: background-color 0.3s ease;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  background-color: #222222;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.sidebar h3 {
+  font-size: 1.5rem;
+  color: #fbbf24;
+  margin-bottom: 1rem;
+}
+
+.sidebar p {
+  color: #cccccc;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.sidebar .tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar .tags span {
+  background-color: #444444;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.sidebar .tags span:hover {
+  background-color: #fbbf24;
+  color: #111111;
+  transition: background-color 0.3s ease;
+}
+
+/* Recent Posts Styling */
+.recent-posts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent-posts-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.recent-post-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.recent-post-date .date-day {
+  background-color: #fbbf24;
+  color: #111111;
+  font-weight: bold;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+}
+
+.recent-post-date .date-month {
+  color: #999999;
+  margin-top: 0.2rem;
+}
+
+.recent-posts-list a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-left: 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.recent-posts-list a:hover {
+  color: #fbbf24;
+}
+
+/* Pagination Styling */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.pagination button {
+  background-color: #444444;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #fbbf24;
+  color: #111111;
+}
+
+/* Footer Styling */
+footer {
+  background-color: rgba(32, 32, 32, 0.8);
+  padding: 2rem 0;
+  text-align: center;
+  color: #999999;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #fbbf24;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
